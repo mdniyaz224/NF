@@ -11,12 +11,12 @@ const Header = () => {
             display: 'block',
         }}>
         <Box display='flex' justifyContent='start' gap={2} alignItems='center' py={1.5} px={2}>
-            <Link  href="#" sx={{color: 'gray', fontSize: '12px', fontWeight: 'bold',textDecoration: 'none' }}>Online Registration</Link>
-            <Link  href="#" sx={{color: 'gray', fontSize: '12px', fontWeight: 'bold',textDecoration: 'none'}}>Offline Registration </Link>
-            <Link  href="#" sx={{color: 'gray', fontSize: '12px', fontWeight: 'bold',textDecoration: 'none'}}>Group Registra</Link>
-            <Link  href="#" sx={{color: 'gray', fontSize: '12px', fontWeight: 'bold',textDecoration: 'none'}}>Conference Brochure </Link>
-            <Link  href="#" sx={{color: 'gray', fontSize: '12px', fontWeight: 'bold',textDecoration: 'none'}}>ONE2ONE</Link>
-            <Link  href="#" sx={{color: 'gray', fontSize: '12px', fontWeight: 'bold',textDecoration: 'none'}}>Vendor Demos Schedule</Link>
+            <Link  href="#" sx={{color: 'gray', fontSize: '12px', fontWeight: 'bold',textDecoration: 'none', '&:hover': { color: 'green' }  }}>Online Registration</Link>
+            <Link  href="#" sx={{color: 'gray', fontSize: '12px', fontWeight: 'bold',textDecoration: 'none', '&:hover': { color: 'green' } }}>Offline Registration </Link>
+            <Link  href="#" sx={{color: 'gray', fontSize: '12px', fontWeight: 'bold',textDecoration: 'none', '&:hover': { color: 'green' } }}>Group Registra</Link>
+            <Link  href="#" sx={{color: 'gray', fontSize: '12px', fontWeight: 'bold',textDecoration: 'none', '&:hover': { color: 'green' } }}>Conference Brochure </Link>
+            <Link  href="#" sx={{color: 'gray', fontSize: '12px', fontWeight: 'bold',textDecoration: 'none', '&:hover': { color: 'green' } }}>ONE2ONE</Link>
+            <Link  href="#" sx={{color: 'gray', fontSize: '12px', fontWeight: 'bold',textDecoration: 'none', '&:hover': { color: 'green' } }}>Vendor Demos Schedule</Link>
         </Box>
         </Box>
         <Box
